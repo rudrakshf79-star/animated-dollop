@@ -47,7 +47,7 @@ START_MATCH_INTERVAL = 2.0
 NEW_MATCH_DELAY = 2.0
 MAX_MATCH_DURATION = 350        # Full LW match natural end (6 min)
 MATCH_IDLE_TIMEOUT = 10.0
-MAX_CONCURRENT_MATCHES = 100      # 7 parallel = 72 matches/hour
+MAX_CONCURRENT_MATCHES = 200     # 7 parallel = 72 matches/hour
 PRIORITY_REGIONS = ["BD", "IND", "SG", "TH", "PH", "VN", "MY", "ID", "HK", "TW", "BR", "EU", "RU", "TR", "ME", "NA", "SAC", "US", "SSA"]
 
 ANTI_AFK_ENABLED = True
